@@ -21,6 +21,15 @@
 # 참고
 * git status를 쳤을때, 빨간색으로 되면 commit 할꺼가 아니다.
 * git commit -m "log기록" -> local서버에서 올린것
+* Windows 환경에서 git 명령 문자열은 꼭 쌍따옴표(" ")를 사용해야 함
+* jetbrains 제품에서는 add + commit 한번에 수행 (코드 편집 창에서 Ctrl + K)
+* * *
+# branch
+* git branch -> 현재 branch 리스트 보여줌
+* git branch branch_name -> branch 추가
+* git checkout branch_name -> branch 전환 
+* git merge branch_name -> branch_name에 있는거를 땡겨서온다
+    * branch_name에서 수정사항을 master에 병합
 * * *
 # 원격서버에 올리기
 1. github.com 들어가서 로그인 후, new repository 만들어라
