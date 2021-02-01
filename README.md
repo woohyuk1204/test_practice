@@ -40,9 +40,9 @@
 1. 원격 저장소에 파일 삭제하기
 * git rm --cached -r [file Name]
    * .idea 폴더 하위의 모든 파일 삭제
-   * git rm --cached -r .idea/
+      * git rm --cached -r .idea/
    * .idea/aa.py 파일 삭제
-   *git rm -cached .idea/aa.py
+      * git rm -cached .idea/aa.py
 2. 원격 저장소에 적용하기
 * git commit -m "Fixed untracked files"
 * git push origin master
