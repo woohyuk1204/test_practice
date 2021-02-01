@@ -39,10 +39,10 @@
 # 원격서버 잘못 올렸을 경우(파일삭제)
 1. 원격 저장소에 파일 삭제하기
 * git rm --cached -r 폴더명/파일명
-** .idea 폴더 하위의 모든 파일 삭제
-   * git rm --cached -r .idea/
-** .idea/aa.py 파일 삭제
-   * git rm -cached .idea/aa.py
+1) .idea 폴더 하위의 모든 파일 삭제
+   ** git rm --cached -r .idea/
+2) .idea/aa.py 파일 삭제
+   ** git rm -cached .idea/aa.py
 2. 원격 저장소에 적용하기
 * git commit -m "Fixed untracked files"
 * git push origin master
